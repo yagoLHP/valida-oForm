@@ -1,9 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "projetoPPI/index.js", "use": "@vercel/node" }
+    {
+      "src": "projetoPPI/index.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "projetoPPI/index.js" }
+    {
+      "src": "/(.*)",
+      "dest": "projetoPPI/index.js"
+    }
   ]
 }
